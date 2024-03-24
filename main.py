@@ -3,6 +3,8 @@ import pandas as pd
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+nltk.download('wordnet')
 # from streamlit_extras import switch_page
 
 # Load the dataset
